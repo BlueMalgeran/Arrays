@@ -13,7 +13,6 @@ public Plugin:myinfo = {
 public OnPluginStart()
 {
   RegConsoleCmd("sm_setnum", CommandSetNum, "");
-  RegConsoleCmd("sm_setnum", CommandSetNum, "");
 }
 
 public Action:CommandSetNum(client, args)
